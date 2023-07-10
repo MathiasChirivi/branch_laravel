@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <button class="btn bg-danger">Don't click here</button>
+                <button class="btn bg-danger">Don't click here </button>
             </div>
         </div>
     </div>
