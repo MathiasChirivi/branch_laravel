@@ -1,5 +1,11 @@
 @extends('layouts.app')
 @section('content')
+<style>
+    h1{
+        color: red;
+        background-color: black;
+    }
+</style>
 
 <div class="jumbotron p-5 mb-4 bg-light rounded-3">
     <div class="container py-5">
@@ -11,7 +17,7 @@
             </svg>
         </div>
         <h1 class="display-5 fw-bold">
-            Welcome to Laravel+Bootstrap 5
+            Welcome to Valeria Style
         </h1>
 
         <p class="col-md-8 fs-4 text-danger">This a preset package with Bootstrap 5 views for laravel projects including laravel breeze/blade. It works from laravel 9.x to the latest release 10.x</p>
@@ -24,4 +30,5 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora temporibus, dicta nemo aliquam totam nisi deserunt soluta quas voluptatum ab beatae praesentium necessitatibus minus, facilis illum rerum officiis accusamus dolores!</p>
     </div>
 </div>
+
 @endsection
